@@ -34,7 +34,6 @@ C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\ob
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\ScoreComparer.g.cs
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\ScoreFinder.g.cs
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\StartupWindow.g.cs
-C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\WordFinder.g.cs
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\App.g.cs
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI_MarkupCompile.cache
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI_MarkupCompile.lref
@@ -42,7 +41,6 @@ C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\ob
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\ScoreComparer.baml
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\ScoreFinder.baml
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\StartupWindow.baml
-C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\WordFinder.baml
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI.g.resources
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble_Score_Tool_UI.Properties.Resources.resources
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI.csproj.GenerateResource.cache
@@ -50,3 +48,5 @@ C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\ob
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI.csproj.CopyComplete
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI.exe
 C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\obj\Debug\Scrabble Score Tool UI.pdb
+C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\bin\Debug\Scrabble Score Tool UI.exe.CodeAnalysisLog.xml
+C:\Users\me762\source\repos\ScrabbleScoreTool - Github\Scrabble Score Tool UI\bin\Debug\Scrabble Score Tool UI.exe.lastcodeanalysissucceeded

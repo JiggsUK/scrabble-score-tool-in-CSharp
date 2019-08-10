@@ -38,11 +38,5 @@ namespace Scrabble_Score_Tool_UI
             ScoreComparer comparer = new ScoreComparer();
             this.NavigationService.Navigate(comparer);
         }
-
-        private void BtnWordFinder_OnClick(object sender, RoutedEventArgs e)
-        {
-            WordFinder finder = new WordFinder();
-            this.NavigationService.Navigate(finder);
-        }
     }
 }
