@@ -1,0 +1,204 @@
+﻿<Page x:Class="Scrabble_Score_Tool_UI.ScoreComparer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Scrabble_Score_Tool_UI"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="350"
+      Title="ScoreComparer"
+      
+      >
+
+    <Page.Background>
+        <ImageBrush ImageSource="scrabble_game_in_progress.jpg" 
+                    Stretch="UniformToFill" 
+                    TileMode="None" 
+                    Opacity="0.9"/>
+    </Page.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="15"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Name="Title"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="7"
+               FontSize="40"
+               FontFamily="Segoe UI Semibold"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               Content="Score Comparer" 
+               Foreground="White"
+               FontWeight="Bold"
+               
+               
+        />
+        <TextBlock Name="Summary"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="7"
+                   FontSize="16"
+                   FontFamily="Segoe UI Semibold"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   TextWrapping="Wrap"
+                   Foreground="White"
+                   Margin="10,5,10,5"
+                   Text="Enter the two words whose scores you wish to compare, then hit the Compare button"
+        ></TextBlock>
+
+        <Label Name="LblWord1"
+               Grid.Row="2"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               FontSize="20"
+               FontFamily="Segoe UI Semibold"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Bottom"
+               Content="Word 1" 
+               Foreground="White"
+               FontWeight="Bold" 
+               
+        />
+        <TextBox Name="TxtBoxWord1"
+                 Grid.Row="4"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 Width="100"
+                 HorizontalAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 Margin="5"
+                 BorderThickness="1"
+                 BorderBrush="DarkGray"
+                 FontSize="20"
+                 FontFamily="Segoe UI Semibold"
+        />
+        <TextBox Name="TxtBoxScoreWord1"
+                 IsReadOnly="True"
+                 Grid.Row="5"
+                 Grid.Column="1"
+                 Grid.ColumnSpan="2"
+                 HorizontalAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center" 
+                 FontSize="20"
+                 FontFamily="Segoe UI Semibold"
+                 Foreground="White"
+                 Text="Score" 
+                 BorderBrush="{x:Null}"
+                 Opacity="0.7"
+                 Background="DimGray"
+                 
+        />
+
+        <Label Name="LblWord2"
+               Grid.Row="2"
+               Grid.Column="4"
+               Grid.ColumnSpan="2"
+               FontSize="20"
+               FontFamily="Segoe UI Semibold"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Bottom"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Bottom"
+               Content="Word 2" 
+               Foreground="White"
+               FontWeight="Bold"
+        />
+
+        <TextBox Name="TxtBoxWord2"
+                 Grid.Row="4"
+                 Grid.Column="4"
+                 Grid.ColumnSpan="2"
+                 Width="100"
+                 HorizontalAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 Margin="5"
+                 BorderThickness="1"
+                 BorderBrush="DarkGray"
+                 FontSize="20"
+                 FontFamily="Segoe UI Semibold"
+                 
+        />
+        <TextBox Name="TxtBoxScoreWord2"
+                 IsReadOnly="True"
+                 Grid.Row="5"
+                 Grid.Column="4"
+                 Grid.ColumnSpan="2"
+                 HorizontalAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 VerticalContentAlignment="Center" 
+                 FontSize="20"
+                 FontFamily="Segoe UI Semibold"
+                 Foreground="White"
+                 Text="Score" 
+                 BorderBrush="{x:Null}"
+                 Opacity="0.7"
+                 Background="DimGray"
+        />
+        <Button Name="BtnCompare"
+                Grid.Row="7"
+                Grid.Column="2"
+                Grid.ColumnSpan="3"
+                FontSize="22"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontWeight="Black"
+                FontFamily="Segoe UI Semibold"
+                BorderBrush="Black"
+                BorderThickness="1" 
+                Click="BtnCompare_OnClick"
+                Content="Compare"
+                Padding="2,0,2,0"
+        />
+        <Button Name="BtnRtnToMain"
+                Grid.Row="9"
+                Grid.Column="2"
+                Grid.ColumnSpan="3"
+                Margin="0,0,0,10"
+                FontSize="22"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                VerticalAlignment="Top"
+                FontWeight="Black"
+                FontFamily="Segoe UI Semibold"
+                BorderBrush="Black"
+                BorderThickness="1" 
+                Click="BtnRtnToMain_OnClick"
+                Content="Main Menu"
+                Padding="2,0,2,0"
+        />
+    </Grid>
+
+</Page>
