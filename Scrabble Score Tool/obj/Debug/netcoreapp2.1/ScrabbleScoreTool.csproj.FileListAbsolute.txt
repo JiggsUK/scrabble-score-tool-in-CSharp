@@ -1,0 +1,11 @@
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\bin\Debug\netcoreapp2.1\ScrabbleScoreTool.deps.json
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\bin\Debug\netcoreapp2.1\ScrabbleScoreTool.runtimeconfig.json
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\bin\Debug\netcoreapp2.1\ScrabbleScoreTool.runtimeconfig.dev.json
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\bin\Debug\netcoreapp2.1\ScrabbleScoreTool.dll
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\bin\Debug\netcoreapp2.1\ScrabbleScoreTool.pdb
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.csprojAssemblyReference.cache
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.csproj.CoreCompileInputs.cache
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.AssemblyInfoInputs.cache
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.AssemblyInfo.cs
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.dll
+C:\Users\me762\source\repos\ScrabbleScoreTool\Scrabble Score Tool\obj\Debug\netcoreapp2.1\ScrabbleScoreTool.pdb
